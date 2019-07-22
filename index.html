@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="UTF8" />
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+      }
+      body, html {
+        padding: 0px;
+        margin: 0px;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background-color: rgba(70, 70, 70, 0.247);
+      }
+      .console {
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        margin: 8px;
+        border: 1px solid;
+        padding: 4px;
+        font-size: 12px;
+        line-height: 12px;
+        font-family: 'Ubuntu Mono', 'Consolas', monospace;
+        width: 20px;
+        transition: 0.15s;
+        cursor: pointer;
+        opacity: 0.15;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15)
+      }
+      .console:hover {
+        opacity: 1;
+      }
+      .console:focus {
+        opacity: 1;
+        cursor: text;
+        border-color: #0af;
+        width: 240px;
+      }
+    </style>
+  </head>
+  <body>
+  </body>
+  <script src="src/script.js" type="module"></script>
+</html>
